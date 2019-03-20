@@ -1,0 +1,15 @@
+<form (ngSubmit)="createOrUpdate()">
+	<!-- <div class="form-group">
+		<label for="id">ID</label>
+		<input type="text" name="_id" [(ngModel)]="user._id" class="form-control">
+	</div> -->
+	<div class="form-group">
+		<label for="id">Name</label>
+		<input type="text" name="name" [(ngModel)]="user.username" class="form-control">
+	</div>
+	<div class="form-group">
+		<label for="id">Email</label>
+		<input type="text" name="email" [(ngModel)]="user.email" class="form-control">
+	</div>
+	<input type="submit" value="Submit" class="btn btn-success">
+</form>
